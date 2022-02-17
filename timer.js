@@ -1,10 +1,10 @@
-/*! timer.js v1.0 | MIT license | https://github.com/Lapis256/timer.js/blob/main/LICENSE */
+/*! timer.js v1.1 | MIT license | https://github.com/Lapis256/timer.js/blob/main/LICENSE */
 
 import { world } from "mojang-minecraft";
 
 
 class Timer {
-    currentTick = 0;
+    currentTick = 1;
 
     constructor(callback, interval, once, args) {
         this.callback = callback.bind(null, ...args);
